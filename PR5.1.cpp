@@ -1,7 +1,9 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+
 double g(const double a, const double b); // прототип
+
 int main()
 {
 	double s, t;
@@ -12,6 +14,7 @@ int main()
 	cout << "c = " << c << endl;
 	return 0;
 }
+
 double g(const double a, const double b) // визначення
 {
 	return (a * a) + (a * b) + (b * b);
